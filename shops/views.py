@@ -159,7 +159,7 @@ def GetShops(request):
                 if open_stat['status'] == 0:
                     open_stat['mass'].append(elem['id'])
             elif t_o > t_c:
-                if n_t in list(range(t_o, 84399)) + list(range(0, t_c)):
+                if n_t in list(range(t_o, 86399)) + list(range(0, t_c)):
                     if open_stat['status'] == 0:
                         open_stat['mass'].append(elem['id'])
                 elif open_stat['status'] == 1:
