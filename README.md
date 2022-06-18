@@ -1,9 +1,9 @@
 # MediaSoft
 <h2>Установка</h2>
-<p>Скачать репозиторий, создать виртуальное окружение, установить необходимые библиотеки командой pip install -r requirements.txt, запустить проект командой python manage.py runserver 0.0.0.0:8000</p>
+<p>Скачать репозиторий<br> Создать виртуальное окружение<br> Установить необходимые библиотеки командой pip install -r requirements.txt<br> Запустить проект командой python manage.py runserver 0.0.0.0:8000</p>
 <h3>Docker</h3>
-docker-compose build,
-docker-compose up
+docker-compose build<br>
+docker-compose up<br>
 И будет вам счастье :)
 
 <h2>Методы</h2>
