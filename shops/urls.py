@@ -3,9 +3,7 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('city/', views.GetCitiesView),
-    path('city/<str:city>/street/', views.GetStreets),
-    path("shop/", views.ChoiseMethodShop)
-    # path("shop/",views.GetShops)
+    path('city/', views.GetCitiViews.as_view({"get": "getAllCity"})),
+    path('city/<str:id_city_url>/street/', views.StreetsView.as_view({"get": "getStreers"})),
+    path("shop/", views.ShopView.as_view({"get": "getShops", "post": "addShop"}))
 ]
-
